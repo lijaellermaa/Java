@@ -13,8 +13,13 @@ public class MainGame {
         num1 = (int) Math.round(Math.random() * 100);
         System.out.println("Please enter number2: ");
         num2 = scn.nextInt();
+
         while (isTrue) {
-            if (num2 <= 10) {
+            if (num2 >= 100) {
+                System.out.println("Second number MUST be less than 100");
+                System.out.println("Please enter second number again: ");
+                num2 = scn.nextInt();
+            } else if (num2 <= 10) {
                 System.out.println("Second number MUST be bigger than 10");
                 System.out.println("Please enter second number again: ");
                 num2 = scn.nextInt();
