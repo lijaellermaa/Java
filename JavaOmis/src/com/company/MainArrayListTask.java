@@ -14,11 +14,10 @@ public class MainArrayListTask {
             months[i] = element.toLowerCase();
             i++;
         }
-        System.out.println(Arrays.toString(months));
 
         Scanner scn = new Scanner(System.in);
         System.out.print("Please enter the month: ");
-        String someMonth = scn.nextLine();
+        String someMonth = scn.nextLine().toLowerCase();
 
         if (Arrays.asList(months).contains(someMonth)) {
             System.out.println(Arrays.asList(months).indexOf(someMonth) + 1);
