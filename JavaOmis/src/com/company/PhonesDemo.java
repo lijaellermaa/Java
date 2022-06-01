@@ -10,14 +10,14 @@ public class PhonesDemo {
 
     }
 
-    PhonesDemo(String m, String n, int p) {
+    PhonesDemo(String m, String num, int p) {
         model = m;
-        number = n;
+        number = num;
         price = p;
     }
 
-    public String Calling() {
-        return number;
+    public String Calling(String name) {
+        return name + " " + number;
     }
 
 }
