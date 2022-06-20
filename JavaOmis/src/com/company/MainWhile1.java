@@ -6,14 +6,14 @@ public class MainWhile1 {
 //        int even = 0;
 //        while (odd < 100) {
 //            odd++;
-//            if (odd % 2 == 0) {
+//            if (odd % 2 == 1) {
 //                System.out.print(odd + " ");
 //            }
 //        }
 //        System.out.println();
 //        while (even < 100) {
 //            even++;
-//            if (even % 2 == 1) {
+//            if (even % 2 == 0) {
 //                System.out.print(even + " ");
 //            }
 //        }

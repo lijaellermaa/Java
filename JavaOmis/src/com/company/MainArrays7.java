@@ -33,6 +33,6 @@ public class MainArrays7 {
                 count++;
             }
         }
-        System.out.print("Total letters count: " + count);
+        System.out.print("Letter " + someChar + " count: " + count);
     }
 }

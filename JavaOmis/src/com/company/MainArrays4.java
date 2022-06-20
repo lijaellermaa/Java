@@ -14,7 +14,7 @@ public class MainArrays4 {
         length = scn.nextInt();
         nums = new int[length];
         for (int i = 0; i < nums.length; i++) {
-            System.out.print("nums[" + nums[i] + "] = ");
+            System.out.print("nums[" + i + "] = ");
             nums[i] = scn.nextInt();
             if (nums[i] > 50) {
                 count++;

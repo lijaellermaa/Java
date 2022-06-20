@@ -12,7 +12,7 @@ public class MainArraysFor1 {
         length = scn.nextInt();
         nums = new int[length];
         for (int i = 0; i < nums.length; i++) {
-            System.out.print("nums[" + nums[i] + "] = ");
+            System.out.print("nums[" + i + "] = ");
             nums[i] = scn.nextInt();
         }
         System.out.println(Arrays.toString(nums));
